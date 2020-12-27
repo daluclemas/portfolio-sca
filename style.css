@@ -462,7 +462,7 @@
             width:150px;
             padding:5px;
             height:30px;
-            margin:0px auto 10px;
+            margin:0px auto 20px;
             border-radius:5px;
             text-transform:capitalize;
             box-shadow:3px 3px 4px grey;
@@ -493,6 +493,13 @@
 
 
         @media (min-width:600px) {
+            .text-area{
+                max-width:55%;
+            }
+
+            textarea{
+                width:100%;
+            }
 
             
         .nav-links a{
